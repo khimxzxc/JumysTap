@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Kanit", sans-serif;
+    background-color: #FFFF;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1920px;
+    width: calc(100% - 20px);
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    padding-left: calc(7px + 40 * ((100vw - 320px) / 1120));
+    padding-right: calc(7px + 40 * ((100vw - 320px) / 1120));
+    column-gap: calc(95px + 765 * ((100vw - 320px) / 1120));
+}
+
+.header_left {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 10px;  
+}
+
+.header_right {  
+    display: flex;
+    padding-top: 12px;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    gap: calc(5px + 23 * ((100vw - 320px) / 1600));
+    align-items: center;
+    
+}
+
+.header_left_text {
+    font-weight: 500;
+    font-size: calc(13px + 5 * ((100vw - 320px) / 1600));
+}
+
+.header_nav_link {
+    color: #081E34;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.header_button {
+    background-color: rgba(8, 30, 52, 12%);
+    padding: 10px 12px;
+    border-radius: 38px;
+}
