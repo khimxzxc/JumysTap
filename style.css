@@ -192,6 +192,7 @@ body {
     width: 100%;
     padding-left: calc(24px + 56 * ((100vw - 320px) / 1120));
     padding-top: calc(54px + 46 * ((100vw - 320px) / 1120));
+    padding-bottom: 100px;
 }
 
 .inputfield_content {
@@ -200,3 +201,151 @@ body {
     gap: 32px;
 }
 
+.inputfield_bottom {
+    display: flex;
+    gap: 32px;
+}
+
+.inputfield_title {
+    margin-bottom: 0;
+}
+
+.inputfield_input {
+    width: 619px;
+    border-radius: 12px;
+    border: 1px solid #E1DEE7;
+    padding-top: 14px;
+    padding-left: 49px;
+    padding-right: 75px;
+    padding-bottom: 14px;
+    background-image: url('img/inputsearch.png');
+    background-repeat: no-repeat;
+    background-position: 10px 10px; 
+    background-color: #FFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.inputfield_button {
+    width: 106px;
+}
+
+.submission_container {
+    display: flex;
+    gap: 128px;
+
+}
+
+.submission_left {
+    padding-top: 64px;
+    padding-left: 80px;
+    padding-bottom: 64px;
+    flex: 0 0 auto;
+}
+
+.submission_img {
+    border-radius: 24px;
+    width: calc(312px + 307 * ((100vw - 320px) / 1120));
+    height: calc(210px + 210 * ((100vw - 320px) / 1120));
+    position: relative;
+    z-index: -10;
+}
+
+.submission_img_elements {
+    position: absolute;
+    transform: translate(-50%, 0);
+    width: calc(53px + 44 * ((100vw - 320px) / 1120));
+    height: auto;
+    bottom: -135%;
+    right: 72%;
+}
+
+.submission_img_elements_two {
+    position: absolute;
+    transform: translate(-50%, 0);
+    height: auto;
+    width: calc(47px + 40 * ((100vw - 320px) / 1120));
+    bottom: -150%;
+    right: 85%;
+}
+
+.submission_right {
+    padding-top: 167px;
+    padding-bottom: 167px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-right: 80px;
+}
+
+.submission_title {
+    margin-bottom: 0;
+}
+
+.submission_button {
+    display: flex;
+    gap: 8px;
+    width: 122px;
+}
+
+.footer_container {
+    background-color: #fcfcfc;
+    border-radius: 32px;
+    width: 100%;
+    padding-top: 32px;
+    padding-left: calc(24px + 56 * ((100vw - 320px) / 1120));
+    padding-right: calc(24px + 56 * ((100vw - 320px) / 1120));
+   display: flex;
+   gap: 205px;
+   align-items: center;
+}
+
+.footer_left {
+    display: flex;
+    padding-bottom: 102px;
+    gap: 28px;
+}
+
+.footer_left_links {
+    display: flex;
+    gap: 28px;
+}
+
+.footer_left_link {
+    font-size: 14px;
+    color: #081E34;
+}
+
+.footer_left_icons {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.footer_right {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: space-between;
+    align-items: stretch; /* Растягивает элементы по ширине */
+}
+
+.footer_right_text {
+    color: rgba(8, 30, 52, 100%);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer_right_text a {
+    color: rgba(8, 30, 52, 100%);
+    text-decoration: underline;
+}
+
+.footer_right_bottom {
+    text-align: right; /* Прижимает текст вправо */
+    padding-bottom: 47px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #081E34;
+}
