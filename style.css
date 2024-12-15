@@ -12,7 +12,7 @@ a {
 
 body {
     font-family: "Kanit", sans-serif;
-    background-color: #FFFF;
+    background-color: rgba(241, 241, 241, 100%);
 }
 
 .container {
@@ -211,7 +211,7 @@ body {
 }
 
 .inputfield_input {
-    width: 619px;
+    width: calc(312px + 307 * ((100vw - 320px) / 1120));
     border-radius: 12px;
     border: 1px solid #E1DEE7;
     padding-top: 14px;
@@ -226,14 +226,17 @@ body {
     font-weight: 500;
 }
 
+input::placeholder {
+    color: #C4C4C4;
+}
+
 .inputfield_button {
     width: 106px;
 }
 
 .submission_container {
     display: flex;
-    gap: 128px;
-
+    gap: calc(50px + 178 * ((100vw - 320px) / 1120));    
 }
 
 .submission_left {
@@ -256,7 +259,7 @@ body {
     transform: translate(-50%, 0);
     width: calc(53px + 44 * ((100vw - 320px) / 1120));
     height: auto;
-    bottom: -135%;
+    bottom: -130%;
     right: 72%;
 }
 
@@ -290,14 +293,14 @@ body {
 }
 
 .footer_container {
-    background-color: #fcfcfc;
+    background-color: #ffffff;
     border-radius: 32px;
     width: 100%;
     padding-top: 32px;
     padding-left: calc(24px + 56 * ((100vw - 320px) / 1120));
     padding-right: calc(24px + 56 * ((100vw - 320px) / 1120));
    display: flex;
-   gap: 205px;
+   gap: calc(85px + 345 * ((100vw - 320px) / 1120));
    align-items: center;
 }
 
@@ -326,19 +329,20 @@ body {
 .footer_right {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 42px;
     justify-content: space-between;
     align-items: stretch; /* Растягивает элементы по ширине */
 }
 
 .footer_right_text {
-    color: rgba(8, 30, 52, 100%);
+    color: #848F9A;
     font-size: 14px;
     font-weight: 400;
+    
 }
 
 .footer_right_text a {
-    color: rgba(8, 30, 52, 100%);
+    color: #848F9A;
     text-decoration: underline;
 }
 
