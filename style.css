@@ -250,26 +250,6 @@ input::placeholder {
     border-radius: 24px;
     width: calc(312px + 307 * ((100vw - 320px) / 1120));
     height: calc(210px + 210 * ((100vw - 320px) / 1120));
-    position: relative;
-    z-index: -10;
-}
-
-.submission_img_elements {
-    position: absolute;
-    transform: translate(-50%, 0);
-    width: calc(53px + 44 * ((100vw - 320px) / 1120));
-    height: auto;
-    bottom: -130%;
-    right: 72%;
-}
-
-.submission_img_elements_two {
-    position: absolute;
-    transform: translate(-50%, 0);
-    height: auto;
-    width: calc(47px + 40 * ((100vw - 320px) / 1120));
-    bottom: -150%;
-    right: 85%;
 }
 
 .submission_right {
@@ -353,3 +333,6 @@ input::placeholder {
     font-weight: 400;
     color: #081E34;
 }
+
+
+
