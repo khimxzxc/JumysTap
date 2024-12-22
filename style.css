@@ -120,25 +120,6 @@ body {
     width: calc(312px + 307 * ((100vw - 320px) / 1120));
     height: calc(210px + 210 * ((100vw - 320px) / 1120));
     border-radius: 32px;
-    position: relative;
-    z-index: -10;
-}
-
-.description_right_img_elements {
-    position: absolute;
-    transform: translate(-50%, 0);
-    left: 73%;
-    width: calc(73px + 66 * ((100vw - 320px) / 1120));
-    height: auto;
-}
-
-.description_right_img_elements_two {
-    position: absolute;
-    transform: translate(-50%, 0);
-    bottom: 32%;
-    left: 87%;
-    width: calc(85px + 63 * ((100vw - 320px) / 1120));
-    height: auto;
 }
 
 .howitworks_container {
@@ -243,7 +224,7 @@ input::placeholder {
 
 .submission_left {
     padding-top: 64px;
-    padding-left: 80px;
+    padding-left: calc(24px + 56 * ((100vw - 320px) / 1120));
     padding-bottom: 64px;
     flex: 0 0 auto;
 }
@@ -276,7 +257,8 @@ input::placeholder {
 
 .footer_container {
     background-color: #ffffff;
-    border-radius: 32px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
     width: 100%;
     padding-top: 32px;
     padding-left: calc(24px + 56 * ((100vw - 320px) / 1120));
